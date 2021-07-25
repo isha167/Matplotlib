@@ -15,10 +15,11 @@ Also none of the drugs has shown an outlier in the upper region indicating that 
 3. From liner regression model for average tumor volume vs mouse weight we can conclude that there is linear correlation between the 
 mouse weight and Average tumor volume. The average tumor volume is seems to increase with mouse weight.So higher the weight higher the tumor volume.
 
+
 ## Pymaceuticals
 -------------------
 
-
+![Laboratory](https://user-images.githubusercontent.com/85182090/126898039-08144b2a-7c45-4cd5-b90a-c98b7d897ad3.jpg)
 
  Pymaceuticals specializes in anti-cancer pharmaceuticals. In its most recent efforts, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
 
