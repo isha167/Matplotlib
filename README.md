@@ -1,20 +1,30 @@
-## Matplotlib - The Power of Plots
+## Analysis of The Pymaceuticals 
+---------------------------------
 
-### Background
+### Three conclusions that can be drawn from the analysis are:
+1. From the bar charts of "Total timepoint for each drug" it can be concluded that the drugs Capomulin has 
+the most number of total timepoints. It can be said that it take the most time to effect the tumors or 
+in other words these are comparatively slower drugs, while there might be other factors contributing to this by just 
+the bar charts this can be an obvious conclusion. The another drug with similar reaction time is Ramicane.
 
-What good is data without a good plot to tell the story?
+2. From the box plot for the four drugs Capomulin, Ramicane, Infubinol, and Ceftamin, we can see that none of the drugs
+has any outliers except Infubinol. The factors effecting that can be only found out by further analysis but the concluiosn
+we can draw from that is that Infubinol has a very positive effect on treatment of tumor hence there is an outlier in lower region.
+Also none of the drugs has shown an outlier in the upper region indicating that drugs seems to have a negative effect on the tumors.
 
-So, let's take what you've learned about Python Matplotlib and apply it to a real-world situation and dataset:
+3. From liner regression model for average tumor volume vs mouse weight we can conclude that there is linear correlation between the 
+mouse weight and Average tumor volume. The average tumor volume is seems to increase with mouse weight.So higher the weight higher the tumor volume.
 
-![Laboratory](Images/Laboratory.jpg)
+## Pymaceuticals
+-------------------
 
-While your data companions rushed off to jobs in finance and government, you remained adamant that science was the way for you. Staying true to your mission, you've joined Pymaceuticals Inc., a burgeoning pharmaceutical company based out of San Diego. Pymaceuticals specializes in anti-cancer pharmaceuticals. In its most recent efforts, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
 
-As a senior data analyst at the company, you've been given access to the complete data from their most recent animal study. In this study, 249 mice identified with SCC tumor growth were treated through a variety of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals' drug of interest, Capomulin, versus the other treatment regimens. You have been tasked by the executive team to generate all of the tables and figures needed for the technical report of the study. The executive team also has asked for a top-level summary of the study results.
 
-## Instructions
+ Pymaceuticals specializes in anti-cancer pharmaceuticals. In its most recent efforts, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
 
-Your tasks are to do the following:
+As a senior data analyst at the company,I havee been given access to the complete data from their most recent animal study. In this study, 249 mice identified with SCC tumor growth were treated through a variety of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals' drug of interest, Capomulin, versus the other treatment regimens. You have been tasked by the executive team to generate all of the tables and figures needed for the technical report of the study. The executive team also has asked for a top-level summary of the study results.
+
+Tasks to do :
 
 * Before beginning the analysis, check the data for any mouse ID with duplicate time points and remove any data associated with that mouse ID.
 
@@ -44,4 +54,6 @@ Your tasks are to do the following:
 
 * Look across all previously generated figures and tables and write at least three observations or inferences that can be made from the data. Include these observations at the top of notebook.
 
+
+  
 
